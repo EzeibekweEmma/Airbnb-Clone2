@@ -68,13 +68,11 @@ export class UserControllerBase {
         firstName: true,
         id: true,
         lastName: true,
-
         listings: {
           select: {
             id: true,
           },
         },
-
         roles: true,
         updatedAt: true,
         username: true,
@@ -109,7 +107,6 @@ export class UserControllerBase {
             id: true,
           },
         },
-
         roles: true,
         updatedAt: true,
         username: true,
